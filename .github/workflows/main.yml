@@ -1,4 +1,4 @@
-name: ci
+name: test
 on:
  push:
    branches:
@@ -13,7 +13,6 @@ jobs:
        - name: Checkout repository
          uses: actions/checkout@v4
 
-
        - name: Setup Node.js
          uses: actions/setup-node@v4
          with:
@@ -22,7 +21,7 @@ jobs:
            
        - name: Installation
          run: npm install
-         
+
        - name: Installation with ci
          run: npm ci
        

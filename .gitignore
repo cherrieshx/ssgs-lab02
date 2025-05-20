@@ -17,3 +17,10 @@ dist/
 .coverage
 .pytest_cache/
 htmlcov/
+
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log

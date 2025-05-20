@@ -23,8 +23,19 @@ Buona analisi e buon lavoro!
 
 ## Installazione e Avvio
 
-*(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
+```bash
+git clone https://github.com/cherrieshx/ssgs-lab2.git
+cd ssgs-lab2
+npm install
+```
 
----
+Avviando con il seguente comando viene mostrato le funzionalità da scegliere del progetto
+```bash
+cd src
+npm start
+```
+Per avviare il progetto con una funzionalita' specifica si esegue il seguente template di comando
 
-*Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione.*
+```bash
+cd src
+npm start <numero_funzione> <stringa_input> [parametro_aggiuntivo]

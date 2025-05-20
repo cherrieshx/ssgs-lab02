@@ -1,12 +1,24 @@
 {
   "name": "labo-string",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Progetto di manipolazione dei stringhe in Node.js su command-line",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cherrieshx/ssgs-lab02.git"
   },
-  "keywords": [],
-  "author": "",
+  "bugs":{
+    "url": "https://github.com/cherrieshx/ssgs-lab02/issues"
+  },
+  "homepage": "https://github.com/cherrieshx/ssgs-lab02#readme",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "keywords": ["Command Line", "String Manipulation"],
+  "author": "Huang Xiaoxue",
   "license": "ISC"
 }

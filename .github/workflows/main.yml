@@ -20,6 +20,9 @@ jobs:
            cache: 'npm'
            
        - name: Installation
+         run: npm install
+
+       - name: Installation with ci
          run: npm ci
        
        - name: Test with coverage
